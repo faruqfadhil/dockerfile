@@ -1,0 +1,831 @@
+Dec 10, 2014 3:14:53 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.57
+Dec 10, 2014 3:14:53 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Nov 3 2014 08:39:16 UTC
+Dec 10, 2014 3:14:53 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.57.0
+Dec 10, 2014 3:14:53 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Dec 10, 2014 3:14:53 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            3.13.0-24-generic
+Dec 10, 2014 3:14:53 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Dec 10, 2014 3:14:53 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JAVA_HOME:             /home/search/source/jdk1.6.0_38/jre
+Dec 10, 2014 3:14:53 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.6.0_38-ea-b04
+Dec 10, 2014 3:14:53 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Sun Microsystems Inc.
+Dec 10, 2014 3:14:53 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/search/source/tomcat
+Dec 10, 2014 3:14:53 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/search/source/tomcat
+Dec 10, 2014 3:14:53 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/search/source/tomcat/conf/logging.properties
+Dec 10, 2014 3:14:53 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Dec 10, 2014 3:14:53 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xms2048m
+Dec 10, 2014 3:14:53 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xmx2048m
+Dec 10, 2014 3:14:53 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/home/search/source/tomcat/endorsed
+Dec 10, 2014 3:14:53 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/search/source/tomcat
+Dec 10, 2014 3:14:53 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/search/source/tomcat
+Dec 10, 2014 3:14:53 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/search/source/tomcat/temp
+Dec 10, 2014 3:14:53 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /home/search/source/jdk1.6.0_38/jre/lib/amd64/server:/home/search/source/jdk1.6.0_38/jre/lib/amd64:/home/search/source/jdk1.6.0_38/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Dec 10, 2014 3:14:53 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Dec 10, 2014 3:14:53 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Dec 10, 2014 3:14:53 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 501 ms
+Dec 10, 2014 3:14:53 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Dec 10, 2014 3:14:53 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.57
+Dec 10, 2014 3:14:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/search/source/tomcat/webapps/host-manager
+Dec 10, 2014 3:14:54 PM org.apache.tomcat.websocket.server.WsSci onStartup
+INFO: JSR 356 WebSocket (Java WebSocket 1.1) support is not available when running on Java 6. To suppress this message, run Tomcat on Java 7, remove the WebSocket JARs from $CATALINA_HOME/lib or add the WebSocket JARs to the tomcat.util.scan.DefaultJarScanner.jarsToSkip property in $CATALINA_BASE/conf/catalina.properties. Note that the deprecated Tomcat 7 WebSocket API will be available. 
+Dec 10, 2014 3:14:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/search/source/tomcat/webapps/host-manager has finished in 625 ms
+Dec 10, 2014 3:14:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/search/source/tomcat/webapps/manager
+Dec 10, 2014 3:14:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/search/source/tomcat/webapps/manager has finished in 101 ms
+Dec 10, 2014 3:14:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/search/source/tomcat/webapps/examples
+Dec 10, 2014 3:14:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/search/source/tomcat/webapps/examples has finished in 389 ms
+Dec 10, 2014 3:14:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/search/source/tomcat/webapps/ROOT
+Dec 10, 2014 3:14:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/search/source/tomcat/webapps/ROOT has finished in 62 ms
+Dec 10, 2014 3:14:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/search/source/tomcat/webapps/docs
+Dec 10, 2014 3:14:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/search/source/tomcat/webapps/docs has finished in 61 ms
+Dec 10, 2014 3:14:54 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Dec 10, 2014 3:14:55 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Dec 10, 2014 3:14:55 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1284 ms
+Dec 10, 2014 3:16:10 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Dec 10, 2014 3:16:10 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Dec 10, 2014 3:16:10 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Dec 10, 2014 3:16:10 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Dec 10, 2014 3:16:10 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Dec 10, 2014 3:16:10 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Dec 10, 2014 3:16:10 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Dec 10, 2014 3:16:10 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Dec 10, 2014 3:48:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.57
+Dec 10, 2014 3:48:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Nov 3 2014 08:39:16 UTC
+Dec 10, 2014 3:48:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.57.0
+Dec 10, 2014 3:48:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Dec 10, 2014 3:48:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            3.13.0-24-generic
+Dec 10, 2014 3:48:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Dec 10, 2014 3:48:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JAVA_HOME:             /home/search/source/jdk1.6.0_38/jre
+Dec 10, 2014 3:48:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.6.0_38-ea-b04
+Dec 10, 2014 3:48:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Sun Microsystems Inc.
+Dec 10, 2014 3:48:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /home/search/source/tomcat
+Dec 10, 2014 3:48:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /home/search/source/tomcat
+Dec 10, 2014 3:48:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/home/search/source/tomcat/conf/logging.properties
+Dec 10, 2014 3:48:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Dec 10, 2014 3:48:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xms2048m
+Dec 10, 2014 3:48:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Xmx2048m
+Dec 10, 2014 3:48:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/home/search/source/tomcat/endorsed
+Dec 10, 2014 3:48:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/home/search/source/tomcat
+Dec 10, 2014 3:48:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/home/search/source/tomcat
+Dec 10, 2014 3:48:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/home/search/source/tomcat/temp
+Dec 10, 2014 3:48:27 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /home/search/source/jdk1.6.0_38/jre/lib/amd64/server:/home/search/source/jdk1.6.0_38/jre/lib/amd64:/home/search/source/jdk1.6.0_38/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Dec 10, 2014 3:48:28 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Dec 10, 2014 3:48:28 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Dec 10, 2014 3:48:28 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 907 ms
+Dec 10, 2014 3:48:28 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Dec 10, 2014 3:48:28 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.57
+Dec 10, 2014 3:48:28 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/search/source/tomcat/webapps/solr.war
+Dec 10, 2014 3:48:30 PM org.apache.tomcat.websocket.server.WsSci onStartup
+INFO: JSR 356 WebSocket (Java WebSocket 1.1) support is not available when running on Java 6. To suppress this message, run Tomcat on Java 7, remove the WebSocket JARs from $CATALINA_HOME/lib or add the WebSocket JARs to the tomcat.util.scan.DefaultJarScanner.jarsToSkip property in $CATALINA_BASE/conf/catalina.properties. Note that the deprecated Tomcat 7 WebSocket API will be available. 
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: Using JNDI solr.home: /home/search/source/solr
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader <init>
+INFO: new SolrResourceLoader for deduced Solr Home: '/home/search/source/solr/'
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/log4j-over-slf4j-1.6.1.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/lucene-spatial-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/apache-solr-uima-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/lucene-highlighter-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/lucene-analyzers-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/apache-solr-core-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/lucene-kuromoji-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/apache-solr-velocity-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/guava-r05.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/geronimo-stax-api_1.0_spec-1.0.1.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/apache-solr-analysis-extras-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/lucene-grouping-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/slf4j-jdk14-1.6.1.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/lucene-memory-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/commons-codec-1.6.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/apache-solr-dataimporthandler-extras-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/lucene-phonetic-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/lucene-spellchecker-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/commons-io-2.1.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/jcl-over-slf4j-1.6.1.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/apache-solr-solrj-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/commons-lang-2.6.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/apache-solr-langid-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/commons-fileupload-1.2.1.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/lucene-queries-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/wstx-asl-3.2.7.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/slf4j-api-1.6.1.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/apache-solr-clustering-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/apache-solr-test-framework-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/apache-solr-cell-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/commons-httpclient-3.1.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/lucene-misc-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/apache-solr-dataimporthandler-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/lucene-core-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.servlet.SolrDispatchFilter init
+INFO: SolrDispatchFilter.init()
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: Using JNDI solr.home: /home/search/source/solr
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.CoreContainer$Initializer initialize
+INFO: looking for solr.xml: /home/search/source/solr/solr.xml
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.CoreContainer load
+INFO: Loading CoreContainer using Solr Home: '/home/search/source/solr/'
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader <init>
+INFO: new SolrResourceLoader for directory: '/home/search/source/solr/'
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/log4j-over-slf4j-1.6.1.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/lucene-spatial-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/apache-solr-uima-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/lucene-highlighter-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/lucene-analyzers-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/apache-solr-core-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/lucene-kuromoji-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/apache-solr-velocity-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/guava-r05.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/geronimo-stax-api_1.0_spec-1.0.1.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/apache-solr-analysis-extras-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/lucene-grouping-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/slf4j-jdk14-1.6.1.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/lucene-memory-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/commons-codec-1.6.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/apache-solr-dataimporthandler-extras-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/lucene-phonetic-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/lucene-spellchecker-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/commons-io-2.1.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/jcl-over-slf4j-1.6.1.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/apache-solr-solrj-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/commons-lang-2.6.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/apache-solr-langid-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/commons-fileupload-1.2.1.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/lucene-queries-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/wstx-asl-3.2.7.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/slf4j-api-1.6.1.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/apache-solr-clustering-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/apache-solr-test-framework-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/apache-solr-cell-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/commons-httpclient-3.1.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/lucene-misc-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/apache-solr-dataimporthandler-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/lucene-core-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.CoreContainer create
+INFO: Creating SolrCore '' using instanceDir: /home/search/source/solr/.
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader <init>
+INFO: new SolrResourceLoader for directory: '/home/search/source/solr/./'
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/log4j-over-slf4j-1.6.1.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/lucene-spatial-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/apache-solr-uima-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/lucene-highlighter-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/lucene-analyzers-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/apache-solr-core-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/lucene-kuromoji-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/apache-solr-velocity-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/guava-r05.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/geronimo-stax-api_1.0_spec-1.0.1.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/apache-solr-analysis-extras-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/lucene-grouping-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/slf4j-jdk14-1.6.1.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/lucene-memory-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/commons-codec-1.6.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/apache-solr-dataimporthandler-extras-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/lucene-phonetic-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/lucene-spellchecker-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/commons-io-2.1.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/jcl-over-slf4j-1.6.1.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/apache-solr-solrj-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/commons-lang-2.6.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/apache-solr-langid-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/commons-fileupload-1.2.1.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/lucene-queries-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/wstx-asl-3.2.7.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/slf4j-api-1.6.1.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/apache-solr-clustering-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/apache-solr-test-framework-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/apache-solr-cell-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/commons-httpclient-3.1.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/lucene-misc-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/apache-solr-dataimporthandler-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/solr/lib/lucene-core-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrConfig initLibs
+INFO: Adding specified lib dirs to ClassLoader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/apache-solr/dist/apache-solr-dataimporthandler-extras-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrResourceLoader replaceClassLoader
+INFO: Adding 'file:/home/search/source/apache-solr/dist/apache-solr-dataimporthandler-3.6.2.jar' to classloader
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrConfig <init>
+INFO: Using Lucene MatchVersion: LUCENE_36
+Dec 10, 2014 3:48:30 PM org.apache.solr.core.SolrConfig <init>
+INFO: Loaded SolrConfig: solrconfig.xml
+Dec 10, 2014 3:48:30 PM org.apache.solr.schema.IndexSchema readSchema
+INFO: Reading Solr Schema
+Dec 10, 2014 3:48:30 PM org.apache.solr.schema.IndexSchema readSchema
+INFO: Schema name=tokobagus
+Dec 10, 2014 3:48:30 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created string: org.apache.solr.schema.StrField
+Dec 10, 2014 3:48:30 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created boolean: org.apache.solr.schema.BoolField
+Dec 10, 2014 3:48:30 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created binary: org.apache.solr.schema.BinaryField
+Dec 10, 2014 3:48:30 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created int: org.apache.solr.schema.TrieIntField
+Dec 10, 2014 3:48:30 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created float: org.apache.solr.schema.TrieFloatField
+Dec 10, 2014 3:48:30 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created long: org.apache.solr.schema.TrieLongField
+Dec 10, 2014 3:48:30 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created double: org.apache.solr.schema.TrieDoubleField
+Dec 10, 2014 3:48:30 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created tint: org.apache.solr.schema.TrieIntField
+Dec 10, 2014 3:48:30 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created tfloat: org.apache.solr.schema.TrieFloatField
+Dec 10, 2014 3:48:30 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created tlong: org.apache.solr.schema.TrieLongField
+Dec 10, 2014 3:48:30 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created tdouble: org.apache.solr.schema.TrieDoubleField
+Dec 10, 2014 3:48:30 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created date: org.apache.solr.schema.TrieDateField
+Dec 10, 2014 3:48:30 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created tdate: org.apache.solr.schema.TrieDateField
+Dec 10, 2014 3:48:30 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created pint: org.apache.solr.schema.IntField
+Dec 10, 2014 3:48:30 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created plong: org.apache.solr.schema.LongField
+Dec 10, 2014 3:48:30 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created pfloat: org.apache.solr.schema.FloatField
+Dec 10, 2014 3:48:30 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created pdouble: org.apache.solr.schema.DoubleField
+Dec 10, 2014 3:48:30 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created pdate: org.apache.solr.schema.DateField
+Dec 10, 2014 3:48:30 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created sint: org.apache.solr.schema.SortableIntField
+Dec 10, 2014 3:48:30 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created slong: org.apache.solr.schema.SortableLongField
+Dec 10, 2014 3:48:30 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created sfloat: org.apache.solr.schema.SortableFloatField
+Dec 10, 2014 3:48:30 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created sdouble: org.apache.solr.schema.SortableDoubleField
+Dec 10, 2014 3:48:30 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created random: org.apache.solr.schema.RandomSortField
+Dec 10, 2014 3:48:30 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.WhitespaceTokenizerFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created text_ws: org.apache.solr.schema.TextField
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.StandardTokenizerFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.StopFilterFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.SynonymFilterFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.LowerCaseFilterFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.StandardTokenizerFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.StopFilterFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.LowerCaseFilterFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created text_general: org.apache.solr.schema.TextField
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.StandardTokenizerFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.SynonymFilterFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.StopFilterFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.LowerCaseFilterFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.EnglishPossessiveFilterFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.KeywordMarkerFilterFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.PorterStemFilterFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.StandardTokenizerFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.StopFilterFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.LowerCaseFilterFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.EnglishPossessiveFilterFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.KeywordMarkerFilterFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.PorterStemFilterFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created text_en: org.apache.solr.schema.TextField
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.WhitespaceTokenizerFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.SynonymFilterFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.StopFilterFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.WordDelimiterFilterFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.LowerCaseFilterFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.KeywordMarkerFilterFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.PorterStemFilterFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.WhitespaceTokenizerFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.StopFilterFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.WordDelimiterFilterFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.LowerCaseFilterFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.KeywordMarkerFilterFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.PorterStemFilterFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created text_en_splitting: org.apache.solr.schema.TextField
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.WhitespaceTokenizerFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.SynonymFilterFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.StopFilterFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.WordDelimiterFilterFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.LowerCaseFilterFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.KeywordMarkerFilterFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.EnglishMinimalStemFilterFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.RemoveDuplicatesTokenFilterFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created text_en_splitting_tight: org.apache.solr.schema.TextField
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.StandardTokenizerFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.SynonymFilterFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.StopFilterFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.LowerCaseFilterFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.StandardTokenizerFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.StopFilterFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.LowerCaseFilterFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.ReversedWildcardFilterFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created text_general_rev: org.apache.solr.schema.TextField
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.KeywordTokenizerFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.LowerCaseFilterFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.TrimFilterFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.PatternReplaceFilterFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created alphaOnlySort: org.apache.solr.schema.TextField
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.StandardTokenizerFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.DoubleMetaphoneFilterFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created phonetic: org.apache.solr.schema.TextField
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.WhitespaceTokenizerFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.DelimitedPayloadTokenFilterFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created payloads: org.apache.solr.schema.TextField
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.KeywordTokenizerFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.LowerCaseFilterFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created lowercase: org.apache.solr.schema.TextField
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created : org.apache.solr.analysis.PathHierarchyTokenizerFactory
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created text_path: org.apache.solr.schema.TextField
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created ignored: org.apache.solr.schema.StrField
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created point: org.apache.solr.schema.PointType
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created location: org.apache.solr.schema.LatLonType
+Dec 10, 2014 3:48:31 PM org.apache.solr.util.plugin.AbstractPluginLoader load
+INFO: created geohash: org.apache.solr.schema.GeoHashField
+Dec 10, 2014 3:48:31 PM org.apache.solr.schema.IndexSchema readSchema
+INFO: default search field in schema is AUC_TITLE
+Dec 10, 2014 3:48:31 PM org.apache.solr.schema.IndexSchema readSchema
+INFO: query parser default operator is AND
+Dec 10, 2014 3:48:31 PM org.apache.solr.schema.IndexSchema readSchema
+INFO: unique key field: AUC_ID
+Dec 10, 2014 3:48:31 PM org.apache.solr.core.SolrCore <init>
+INFO: [] Opening new SolrCore at /home/search/source/solr/./, dataDir=/home/search/source/solr/./data/
+Dec 10, 2014 3:48:31 PM org.apache.solr.core.JmxMonitoredMap <init>
+INFO: JMX monitoring is enabled. Adding Solr mbeans to JMX Server: com.sun.jmx.mbeanserver.JmxMBeanServer@37d2068d
+Dec 10, 2014 3:48:31 PM org.apache.solr.core.SolrCore initListeners
+INFO: [] Added SolrEventListener for newSearcher: org.apache.solr.core.QuerySenderListener{queries=[]}
+Dec 10, 2014 3:48:31 PM org.apache.solr.core.SolrCore initListeners
+INFO: [] Added SolrEventListener for firstSearcher: org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}
+Dec 10, 2014 3:48:31 PM org.apache.solr.core.SolrCore initIndex
+WARNING: [] Solr index directory '/home/search/source/solr/./data/index' doesn't exist. Creating new index...
+Dec 10, 2014 3:48:31 PM org.apache.solr.core.SolrDeletionPolicy onCommit
+INFO: SolrDeletionPolicy.onCommit: commits:num=1
+	commit{dir=/home/search/source/solr/data/index,segFN=segments_1,version=1418201311540,generation=1,filenames=[segments_1]
+Dec 10, 2014 3:48:31 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1418201311540
+Dec 10, 2014 3:48:31 PM org.apache.solr.core.SolrCore initWriters
+INFO: created json: solr.JSONResponseWriter
+Dec 10, 2014 3:48:31 PM org.apache.solr.core.SolrCore initWriters
+INFO: adding lazy queryResponseWriter: solr.VelocityResponseWriter
+Dec 10, 2014 3:48:31 PM org.apache.solr.core.SolrCore initWriters
+INFO: created velocity: solr.VelocityResponseWriter
+Dec 10, 2014 3:48:31 PM org.apache.solr.core.SolrCore initWriters
+INFO: created xslt: solr.XSLTResponseWriter
+Dec 10, 2014 3:48:31 PM org.apache.solr.response.XSLTResponseWriter init
+INFO: xsltCacheLifetimeSeconds=5
+Dec 10, 2014 3:48:31 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /select: solr.SearchHandler
+Dec 10, 2014 3:48:31 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /browse: solr.SearchHandler
+Dec 10, 2014 3:48:31 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update: solr.XmlUpdateRequestHandler
+Dec 10, 2014 3:48:31 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update/javabin: solr.BinaryUpdateRequestHandler
+Dec 10, 2014 3:48:31 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.CSVRequestHandler
+Dec 10, 2014 3:48:31 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update/csv: solr.CSVRequestHandler
+Dec 10, 2014 3:48:31 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.JsonUpdateRequestHandler
+Dec 10, 2014 3:48:31 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update/json: solr.JsonUpdateRequestHandler
+Dec 10, 2014 3:48:31 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.extraction.ExtractingRequestHandler
+Dec 10, 2014 3:48:31 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update/extract: solr.extraction.ExtractingRequestHandler
+Dec 10, 2014 3:48:31 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.XsltUpdateRequestHandler
+Dec 10, 2014 3:48:31 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /update/xslt: solr.XsltUpdateRequestHandler
+Dec 10, 2014 3:48:31 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+Dec 10, 2014 3:48:31 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /analysis/field: solr.FieldAnalysisRequestHandler
+Dec 10, 2014 3:48:31 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.DocumentAnalysisRequestHandler
+Dec 10, 2014 3:48:31 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /analysis/document: solr.DocumentAnalysisRequestHandler
+Dec 10, 2014 3:48:31 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /admin/: solr.admin.AdminHandlers
+Dec 10, 2014 3:48:31 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /admin/ping: solr.PingRequestHandler
+Dec 10, 2014 3:48:31 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /debug/dump: solr.DumpRequestHandler
+Dec 10, 2014 3:48:31 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /dataimport: org.apache.solr.handler.dataimport.DataImportHandler
+Dec 10, 2014 3:48:31 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /replication: solr.ReplicationHandler
+Dec 10, 2014 3:48:31 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /mlt: solr.MoreLikeThisHandler
+Dec 10, 2014 3:48:31 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.SearchHandler
+Dec 10, 2014 3:48:31 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /spell: solr.SearchHandler
+Dec 10, 2014 3:48:31 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.SearchHandler
+Dec 10, 2014 3:48:31 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /tvrh: solr.SearchHandler
+Dec 10, 2014 3:48:31 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.SearchHandler
+Dec 10, 2014 3:48:31 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /terms: solr.SearchHandler
+Dec 10, 2014 3:48:31 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: adding lazy requestHandler: solr.SearchHandler
+Dec 10, 2014 3:48:31 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+INFO: created /elevate: solr.SearchHandler
+Dec 10, 2014 3:48:31 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@3160e069 main
+Dec 10, 2014 3:48:31 PM org.apache.solr.update.CommitTracker <init>
+INFO: commitTracker AutoCommit: disabled
+Dec 10, 2014 3:48:31 PM org.apache.solr.handler.component.SpellCheckComponent inform
+INFO: Initializing spell checkers
+Dec 10, 2014 3:48:31 PM org.apache.solr.handler.component.SpellCheckComponent inform
+INFO: No queryConverter defined, using default converter
+Dec 10, 2014 3:48:31 PM org.apache.solr.handler.component.QueryElevationComponent inform
+INFO: Loading QueryElevation from: /home/search/source/solr/./conf/elevate.xml
+Dec 10, 2014 3:48:32 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.QueryComponent@1436ae83
+Dec 10, 2014 3:48:32 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.FacetComponent@11fb24d3
+Dec 10, 2014 3:48:32 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.MoreLikeThisComponent@7f2ea1dd
+Dec 10, 2014 3:48:32 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.HighlightComponent@4e84f566
+Dec 10, 2014 3:48:32 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.StatsComponent@7b0b23cf
+Dec 10, 2014 3:48:32 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  debug component:org.apache.solr.handler.component.DebugComponent@185c2a25
+Dec 10, 2014 3:48:32 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting socketTimeout to: 0
+Dec 10, 2014 3:48:32 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting urlScheme to: http://
+Dec 10, 2014 3:48:32 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting connTimeout to: 0
+Dec 10, 2014 3:48:32 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting maxConnectionsPerHost to: 20
+Dec 10, 2014 3:48:32 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting corePoolSize to: 0
+Dec 10, 2014 3:48:32 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting maximumPoolSize to: 2147483647
+Dec 10, 2014 3:48:32 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting maxThreadIdleTime to: 5
+Dec 10, 2014 3:48:32 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting sizeOfQueue to: -1
+Dec 10, 2014 3:48:32 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting fairnessPolicy to: false
+Dec 10, 2014 3:48:32 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.QueryComponent@1436ae83
+Dec 10, 2014 3:48:32 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.FacetComponent@11fb24d3
+Dec 10, 2014 3:48:32 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.MoreLikeThisComponent@7f2ea1dd
+Dec 10, 2014 3:48:32 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.HighlightComponent@4e84f566
+Dec 10, 2014 3:48:32 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.StatsComponent@7b0b23cf
+Dec 10, 2014 3:48:32 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.SpellCheckComponent@536b98c3
+Dec 10, 2014 3:48:32 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  debug component:org.apache.solr.handler.component.DebugComponent@185c2a25
+Dec 10, 2014 3:48:32 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting socketTimeout to: 0
+Dec 10, 2014 3:48:32 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting urlScheme to: http://
+Dec 10, 2014 3:48:32 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting connTimeout to: 0
+Dec 10, 2014 3:48:32 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting maxConnectionsPerHost to: 20
+Dec 10, 2014 3:48:32 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting corePoolSize to: 0
+Dec 10, 2014 3:48:32 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting maximumPoolSize to: 2147483647
+Dec 10, 2014 3:48:32 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting maxThreadIdleTime to: 5
+Dec 10, 2014 3:48:32 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting sizeOfQueue to: -1
+Dec 10, 2014 3:48:32 PM org.apache.solr.handler.component.HttpShardHandlerFactory getParameter
+INFO: Setting fairnessPolicy to: false
+Dec 10, 2014 3:48:32 PM org.apache.solr.handler.dataimport.DataImportHandler processConfiguration
+INFO: Processing configuration from solrconfig.xml: {config=db-data-config.xml}
+Dec 10, 2014 3:48:32 PM org.apache.solr.handler.dataimport.DataImporter loadDataConfig
+INFO: Data Configuration loaded successfully
+Dec 10, 2014 3:48:32 PM org.apache.solr.handler.dataimport.DataImporter verifyWithSchema
+INFO: AUC_ID is a required field in SolrSchema . But not found in DataConfig
+Dec 10, 2014 3:48:32 PM org.apache.solr.handler.SnapPuller startExecutorService
+INFO: Poll Scheduled at an interval of 300000ms
+Dec 10, 2014 3:48:32 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener sending requests to Searcher@3160e069 main
+Dec 10, 2014 3:48:32 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=null path=null params={event=firstSearcher&q=static+firstSearcher+warming+in+solrconfig.xml} hits=0 status=0 QTime=88 
+Dec 10, 2014 3:48:32 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener done.
+Dec 10, 2014 3:48:32 PM org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener newSearcher
+INFO: Loading spell index for spellchecker: default
+Dec 10, 2014 3:48:32 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [] Registered new searcher Searcher@3160e069 main
+Dec 10, 2014 3:48:32 PM org.apache.solr.core.CoreContainer register
+INFO: registering core: 
+Dec 10, 2014 3:48:32 PM org.apache.solr.servlet.SolrDispatchFilter init
+INFO: user.dir=/home/search/source/tomcat/bin
+Dec 10, 2014 3:48:32 PM org.apache.solr.servlet.SolrDispatchFilter init
+INFO: SolrDispatchFilter.init() done
+Dec 10, 2014 3:48:32 PM org.apache.solr.servlet.SolrServlet init
+INFO: SolrServlet.init()
+Dec 10, 2014 3:48:32 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: Using JNDI solr.home: /home/search/source/solr
+Dec 10, 2014 3:48:32 PM org.apache.solr.servlet.SolrServlet init
+INFO: SolrServlet.init() done
+Dec 10, 2014 3:48:32 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: Using JNDI solr.home: /home/search/source/solr
+Dec 10, 2014 3:48:32 PM org.apache.solr.servlet.SolrUpdateServlet init
+INFO: SolrUpdateServlet.init() done
+Dec 10, 2014 3:48:32 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/search/source/tomcat/webapps/solr.war has finished in 3,967 ms
+Dec 10, 2014 3:48:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/search/source/tomcat/webapps/host-manager
+Dec 10, 2014 3:48:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/search/source/tomcat/webapps/host-manager has finished in 337 ms
+Dec 10, 2014 3:48:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/search/source/tomcat/webapps/manager
+Dec 10, 2014 3:48:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/search/source/tomcat/webapps/manager has finished in 260 ms
+Dec 10, 2014 3:48:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/search/source/tomcat/webapps/examples
+Dec 10, 2014 3:48:33 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/search/source/tomcat/webapps/examples has finished in 776 ms
+Dec 10, 2014 3:48:33 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/search/source/tomcat/webapps/ROOT
+Dec 10, 2014 3:48:33 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/search/source/tomcat/webapps/ROOT has finished in 148 ms
+Dec 10, 2014 3:48:33 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/search/source/tomcat/webapps/docs
+Dec 10, 2014 3:48:34 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /home/search/source/tomcat/webapps/docs has finished in 229 ms
+Dec 10, 2014 3:48:34 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Dec 10, 2014 3:48:34 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Dec 10, 2014 3:48:34 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 5844 ms
+Dec 10, 2014 3:48:54 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=/solr path=/admin/file/ params={contentType=text/xml;charset%3Dutf-8&file=schema.xml} status=0 QTime=2 
+Dec 10, 2014 3:49:42 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=/solr path=/admin/file/ params={contentType=text/xml;charset%3Dutf-8&file=solrconfig.xml} status=0 QTime=0 
+Dec 10, 2014 3:50:05 PM org.apache.solr.handler.SnapPuller fetchLatestIndex
+SEVERE: Master at: http://192.168.1.224:8080/solr/replication is not available. Index fetch failed. Exception: The host did not accept the connection within timeout of 5000 ms
+Dec 10, 2014 3:50:13 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=/solr path=/admin/luke params={show=schema&wt=json} status=0 QTime=5 
+Dec 10, 2014 3:50:13 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=/solr path=/admin/luke params={wt=json&reportDocCount=false} status=0 QTime=7 
+Dec 10, 2014 3:55:05 PM org.apache.solr.handler.SnapPuller fetchLatestIndex
+SEVERE: Master at: http://192.168.1.224:8080/solr/replication is not available. Index fetch failed. Exception: The host did not accept the connection within timeout of 5000 ms
+Dec 10, 2014 4:00:05 PM org.apache.solr.handler.SnapPuller fetchLatestIndex
+SEVERE: Master at: http://192.168.1.224:8080/solr/replication is not available. Index fetch failed. Exception: The host did not accept the connection within timeout of 5000 ms
+Dec 10, 2014 4:05:05 PM org.apache.solr.handler.SnapPuller fetchLatestIndex
+SEVERE: Master at: http://192.168.1.224:8080/solr/replication is not available. Index fetch failed. Exception: The host did not accept the connection within timeout of 5000 ms
+Dec 10, 2014 4:10:05 PM org.apache.solr.handler.SnapPuller fetchLatestIndex
+SEVERE: Master at: http://192.168.1.224:8080/solr/replication is not available. Index fetch failed. Exception: The host did not accept the connection within timeout of 5000 ms
+Dec 10, 2014 4:12:46 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=/solr path=/admin/file/ params={contentType=text/xml;charset%3Dutf-8&file=schema.xml} status=0 QTime=1 
+Dec 10, 2014 4:15:05 PM org.apache.solr.handler.SnapPuller fetchLatestIndex
+SEVERE: Master at: http://192.168.1.224:8080/solr/replication is not available. Index fetch failed. Exception: The host did not accept the connection within timeout of 5000 ms
+Dec 10, 2014 4:20:05 PM org.apache.solr.handler.SnapPuller fetchLatestIndex
+SEVERE: Master at: http://192.168.1.224:8080/solr/replication is not available. Index fetch failed. Exception: The host did not accept the connection within timeout of 5000 ms
