@@ -4,3 +4,4 @@ Dockerfile Example
 * apache
 * apachephp
 * haproxy
+* solr
