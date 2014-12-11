@@ -14,7 +14,9 @@ RUN echo 'root	hard	nofile	130710' >> /etc/security/limits.conf
 RUN sed -i 's/# session    required   pam_limits.so/session    required   pam_limits.so/g' /etc/pam.d/su
 
 
-RUN apt-get install nginx -y
+RUN apt-get install haproxy -y
 RUN rm -rf /var/lib/apt/lists/*
+ADD haproxy.cfg /etc/haproxy/haproxy.cfg
+
 EXPOSE 80
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["haproxy", "-f", "/etc/haproxy/haproxy.cfg", "-p", "/var/run/haproxy.pid"]
